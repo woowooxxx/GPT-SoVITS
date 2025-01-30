@@ -148,6 +148,9 @@ with gr.Blocks(title="UVR5 WebUI") as app:
                         #i18n("1、DeEcho-DeReverb模型的耗时是另外2个DeEcho模型的接近2倍；") + "<br>" + \
                         #i18n("2、MDX-Net-Dereverb模型挺慢的；") + "<br>" + \
                         #i18n("3、个人推荐的最干净的配置是先MDX-Net再DeEcho-Aggressive。"),'h4')
+                        "<br>"
+                        "<br>"
+                    )
                 )
                 with gr.Row():
                     with gr.Column():
